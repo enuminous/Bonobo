@@ -1,0 +1,12 @@
+balanced {'gains': {'A': 0.29999999999999993, 'B': 0.28, 'C': 0.26}, 'total_gain': 0.84, 'mutual_gain_fraction': 1.0, 'fairness_dispersion': 0.0005668934240362798, 'exploitation_penalty': 0.0, 'efficiency': 0.9333333333333332, 'coalition_stability': 0.95, 'resolution_quality': 0.9, 'cooperative_optimization': 0.9573866855524079}
+exploitative {'gains': {'A': 0.5499999999999999, 'B': 0.31999999999999995, 'C': -0.2}, 'total_gain': 0.6699999999999999, 'mutual_gain_fraction': 0.6666666666666666, 'fairness_dispersion': 0.12894867091740184, 'exploitation_penalty': 0.2, 'efficiency': 0.7444444444444444, 'coalition_stability': 0.55, 'resolution_quality': 0.5, 'cooperative_optimization': 0.7079893060999932}
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.
